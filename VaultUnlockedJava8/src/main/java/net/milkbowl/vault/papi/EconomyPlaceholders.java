@@ -180,6 +180,13 @@ public class EconomyPlaceholders extends PlaceholderExpansion {
           }
           break;
 
+        case "bankbalance":
+          //%vaultunlocked_bankbalance%
+          if (args.length == 1 && uuid != null) {
+            return economy.format("economy", economy.getBankBalance(uuid));
+          }
+          break;
+
         case "can":
           if(args.length != 3 || uuid == null) {
             return null;

@@ -11,7 +11,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<bukkitVersion>1.10-R0.1-SNAPSHOT</bukkitVersion>
 		<mainClass>${project.groupId}.${project.artifactId}</mainClass>
-		<api.version>2.20</api.version>
+		<api.version>2.20+tca</api.version>
 	</properties>
 
 	<!-- Project information -->
@@ -43,6 +43,13 @@
 			<timezone>America/New_York</timezone>
 		</developer>
 	</developers>
+
+	<contributors>
+		<contributor>
+			<name>CreepyX</name>
+			<organization>TCA-Studios</organization>
+		</contributor>
+	</contributors>
 
 	<scm>
 		<url>https://github.com/TheNewEconomy/VaultUnlockedAPI</url>
@@ -87,6 +94,11 @@
 			<id>faststats-releases</id>
 			<name>FastStats</name>
 			<url>https://repo.faststats.dev/releases</url>
+		</repository>
+		<repository>
+			<id>TCA-Studios Repository-releases</id>
+			<name>TCA-Studios Repository</name>
+			<url>https://repo.creepyx.com/releases</url>
 		</repository>
 	</repositories>
 
